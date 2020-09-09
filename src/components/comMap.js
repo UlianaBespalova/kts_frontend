@@ -416,7 +416,6 @@ function ComMap(props) {
         }
 
 
-
         chart.current = map;
         return () => {
             map.dispose();
